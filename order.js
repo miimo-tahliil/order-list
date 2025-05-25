@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     cartCount.textContent = `(${itemsCount})`;
     totalAmount.textContent = `$${total.toFixed(2)}`;
 
-    // Remove item event
+  
     document.querySelectorAll('.remove-btn').forEach(btn => {
       btn.onclick = function() {
         const name = this.getAttribute('data-name');
